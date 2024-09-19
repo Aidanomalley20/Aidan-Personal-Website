@@ -66,6 +66,24 @@ main {
   text-align: center;
   font-size: 25px;
 }
+.para2{
+  margin: 2rem 5rem 0 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.para2 p {
+  padding-left: 5rem;
+  font-size: 25px;
+  width: 550px;
+  font-weight: bold;
+  text-align: center;
+}
+.para2 img {
+  border-radius: 20px;
+}
 footer {
   margin: 50px 25px 25px 25px;
   border: solid 2px;
