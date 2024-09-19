@@ -16,6 +16,10 @@ nav {
   border: solid 2px;
   border-radius: 20px;
 }
+.active {
+  font-weight: bold;
+  text-decoration: underline !important;
+}
 .name {
   padding: 2rem;
 }
@@ -66,7 +70,7 @@ main {
   text-align: center;
   font-size: 25px;
 }
-.para2{
+.para2 {
   margin: 2rem 5rem 0 5rem;
   display: flex;
   flex-direction: row;
@@ -84,6 +88,40 @@ main {
 .para2 img {
   border-radius: 20px;
 }
+.para3 {
+  margin: 2rem 5rem 0 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.para3 p {
+  padding-left: 5rem;
+  font-size: 25px;
+  width: 550px;
+  font-weight: bold;
+  text-align: center;
+}
+.para3 img {
+  border-radius: 20px;
+}
+.header3 {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 25px;
+}
+.project {
+  width: 550px;
+  color: black;
+  margin: auto;
+  padding: 1em;
+}
+.project h2 {
+  font-weight: 500;
+  font-size: 2em;
+}
+
 footer {
   margin: 50px 25px 25px 25px;
   border: solid 2px;
