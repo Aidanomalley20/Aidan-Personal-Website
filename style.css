@@ -2,9 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
-body{
-    background: linear-gradient(grey, lightgrey, lightblue, blue);
+body {
+  background: linear-gradient(grey, lightgrey, lightblue, blue);
 }
 nav {
   display: flex;
@@ -40,6 +41,48 @@ main {
   margin-top: 2rem;
   text-align: center;
   font-size: 25px;
+}
+.para1 {
+  margin: 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.para1 p {
+  padding-left: 5rem;
+  font-size: 25px;
+  width: 550px;
+  font-weight: bold;
+  text-align: center;
+}
+.para1 img {
+  margin: 3rem;
+  border-radius: 30px;
+}
+.header2 {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 25px;
+}
+.para2{
+  margin: 2rem 5rem 0 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.para2 p {
+  padding-left: 5rem;
+  font-size: 25px;
+  width: 550px;
+  font-weight: bold;
+  text-align: center;
+}
+.para2 img {
+  border-radius: 20px;
 }
 footer {
   margin: 50px 25px 25px 25px;
