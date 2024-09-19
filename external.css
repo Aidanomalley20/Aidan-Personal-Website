@@ -1,0 +1,43 @@
+img {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto !important;
+}
+
+.myForm {
+  margin-top: 10vh;
+}
+
+.flexParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.divFlex {
+  height: 100px;
+  width: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.button {
+  padding: 10px;
+}
