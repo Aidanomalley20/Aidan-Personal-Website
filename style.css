@@ -112,7 +112,7 @@ main {
   font-size: 25px;
 }
 .project {
-  width: 550px;
+  width: 800px;
   color: black;
   margin: auto;
   padding: 1em;
@@ -121,7 +121,12 @@ main {
   font-weight: 500;
   font-size: 2em;
 }
-
+.portfolio-img{
+  width: 240px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  float: right;
+}
 footer {
   margin: 50px 25px 25px 25px;
   border: solid 2px;
