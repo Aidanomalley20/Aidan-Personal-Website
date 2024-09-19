@@ -41,6 +41,10 @@ main {
   text-align: center;
   font-size: 25px;
 }
+.para1{
+  margin-top: 2rem;
+  
+}
 footer {
   margin: 50px 25px 25px 25px;
   border: solid 2px;
